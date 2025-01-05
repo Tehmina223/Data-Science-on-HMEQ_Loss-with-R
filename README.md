@@ -2,7 +2,7 @@
 
 File name: **Box plot.R**
 
-This R script preprocesses the HMEQ_Loss dataset through systematic data cleaning and preparation. It begins with exploratory steps like examining structure, summary statistics, and sample rows, followed by visualizations using **boxplots **and **histograms **to analyze variability and distributions. Missing values in numeric columns are imputed using medians or logical replacements, with imputed values stored in new columns prefixed with IMP_ and indicators for missingness prefixed with M_. Original columns are dropped post-imputation. The categorical REASON column is one-hot encoded into binary flags (FLAG.R.HomeImp and FLAG.R.DebtCon), and the original column is removed. These steps ensure missing data and categorical variables are effectively handled, creating a clean, analysis-ready dataset.
+This R script preprocesses the **HMEQ_Loss dataset** through systematic **data cleaning** and **preparation**. It begins with exploratory steps like examining **structure**, **summary statistics**, and **sample rows**, followed by visualizations using **boxplots** and **histograms** to analyze **variability** and **distributions**. **Missing values** in **numeric columns** are imputed using **medians** or **logical replacements**, with imputed values stored in new columns prefixed with **IMP_** and indicators for **missingness** prefixed with **M_**. Original columns are dropped post-imputation. The **categorical REASON column** is one-hot encoded into **binary flags** (**FLAG.R.HomeImp** and **FLAG.R.DebtCon**), and the original column is removed. These steps ensure **missing data** and **categorical variables** are effectively handled, creating a clean, **analysis-ready dataset**.
 
 File name: **R part.R**
 
