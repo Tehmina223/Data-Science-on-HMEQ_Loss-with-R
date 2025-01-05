@@ -23,3 +23,8 @@ File name: **Logistic&LinearRegression.R**
 
 This document outlines a comprehensive data analysis process using R for predicting **TARGET_BAD_FLAG** and **TARGET_LOSS_AMT** variables. It employs various **machine learning** techniques including **decision trees**, **random forests**, **gradient boosting**, and **logistic regression**. The analysis involves **data preparation**, **model training**, **performance evaluation**, and **comparison** using metrics such as **AUC** and **RMSE**. The code demonstrates the implementation of these models, variable importance analysis, and the use of **stepwise selection** methods to refine the models for improved predictive accuracy.
 
+
+File name: **PCA&tSNE.R**
+
+**Principal Component Analysis (PCA) & t-distributed stochastic neighbor embedding (t-SNE)**
+This document outlines a comprehensive **data analysis** process using R for predicting **TARGET_BAD_FLAG** and **TARGET_LOSS_AMT** variables. It employs various **machine learning** techniques including **decision trees**, **random forests**, **gradient boosting**, and **logistic regression**. The analysis involves **data preparation**, **model training**, **performance evaluation**, and **comparison** using metrics such as **AUC** and **RMSE**. The code demonstrates the implementation of these models, variable importance analysis, and the use of **dimensionality reduction** techniques like **PCA** and **t-SNE** for visualization. Additionally, it explores **feature engineering** and model refinement to improve predictive accuracy.
